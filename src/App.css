@@ -1,0 +1,135 @@
+.nav-bar {
+  position: fixed;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 2px, 2px;
+  width: 100%;
+  height: 15%;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.nav-bar h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400px;
+  font-size: 40px;
+  font-family: Segoe UI black;
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  height: 214px;
+  object-fit: cover;
+}
+
+#container {
+  display: inline-block;
+  max-width: 300px;
+  margin: 70px;
+}
+
+.card {
+  margin-top: 65px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 12px;
+}
+
+.tag {
+  padding: 4px 8px;
+  border: 1px solid #e5eaed;
+  border-radius: 50px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #788697;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+p {
+  font-size: 14px;
+  color: #7f8c9b;
+  line-height: 150%;
+}
+
+button {
+  border: none;
+  margin-top: 20px;
+  padding: 12px 24px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-family: "Poppins",sans-serif;
+  color: #ffffff;
+  background-color: #4b4b4b;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+.card__details {
+  /* Add space around the details */
+  padding: 16px 8px 8px 8px;
+}
+
+button:focus,
+button:hover {
+  background-color: black;
+  box-shadow: 0 8px 32px 0 rgba(32, 38, 138, 1.37);
+  color: #e0efff;
+}
+
+.footer {
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  width: 1206px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  padding: 70px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.footer h2 {
+  text-align: center;
+  color: white;
+  font-weight: 300px;
+  font-size: 60px;
+  font-family: Segoe UI black;
+  font-style: italic;
+}
+
+.footer p {
+  color: white;
+  float: right;
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .nav-bar {
+    width: 100%;
+  }
+
+  .card {
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  .footer {
+    width: 61%;
+  }
+}
